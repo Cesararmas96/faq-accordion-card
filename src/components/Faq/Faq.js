@@ -101,7 +101,7 @@ const Faq = () => {
       		<img src={arrow} alt="arrow"/>
       	</QuestionTitle>
 
-      	<Answer id="aswer" ref={dropdownRef} active={isActive}>
+      	<Answer ref={dropdownRef} active={isActive}>
       		You can invite up to 2 additional users on the Free plan. There is no limit on 
  					team members for the Premium plan.
       	</Answer>
@@ -114,7 +114,7 @@ const Faq = () => {
           <img src={arrow} alt="arrow"/>
         </QuestionTitle>
 
-        <Answer id="aswer" ref={dropdownRef1} active={isActive1}>
+        <Answer ref={dropdownRef1} active={isActive1}>
           No more than 2GB. All files in your account must fit your allotted storage space.
         </Answer>
      </QuestionConteiner>
@@ -125,7 +125,7 @@ const Faq = () => {
           <img src={arrow} alt="arrow"/>
         </QuestionTitle>
 
-        <Answer id="aswer" ref={dropdownRef2} active={isActive2}>
+        <Answer ref={dropdownRef2} active={isActive2}>
           Click “Forgot password” from the login page or “Change password” from your profile page.
           A reset link will be emailed to you.
         </Answer>
@@ -137,7 +137,7 @@ const Faq = () => {
           <img src={arrow} alt="arrow"/>
         </QuestionTitle>
 
-        <Answer id="aswer" ref={dropdownRef3} active={isActive3}>
+        <Answer ref={dropdownRef3} active={isActive3}>
           Yes! Send us a message and we’ll process your request no questions asked.
         </Answer>
      </QuestionConteiner>
@@ -148,7 +148,7 @@ const Faq = () => {
           <img src={arrow} alt="arrow"/>
         </QuestionTitle>
 
-        <Answer id="aswer" ref={dropdownRef4} active={isActive4}>
+        <Answer ref={dropdownRef4} active={isActive4}>
           Chat and email support is available 24/7. Phone lines are open during normal business hours.
         </Answer>
      </QuestionConteiner>
